@@ -12,10 +12,11 @@ class IMCPreprocessor:
     @staticmethod
     def drop_channels(image, channels_of_interest, channel_names) -> Tuple[np.ndarray, List]:
         channel_names_new = [i for i in channel_names if i not in channels_of_interest]
-        mask = np.zeros(image.shape[2], dtype=bool)
+        mask = np.zeros(image.shape[2], dtype=bool) # Error: np.zeros(image.shape[0], dtype=bool) and NOT np.zeros(image.shape[2], dtype=bool) (ONLY ERROR IF YOU DONT TRANSPOSE THE IMAGE, OTHERWISE OKEY)
+        
         for i in channels_of_interest:
             mask[channel_names.index(i)] = True
-        image = image[:,:,mask]
+        image = image[:, :, mask] # Error: image[mask, :, :] and not image[:, :, mask] ! (ONLY ERROR IF YOU DONT TRANSPOSE THE IMAGE, OTHERWISE OKEY)
         
         return image, channel_names_new
 
