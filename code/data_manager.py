@@ -33,8 +33,12 @@ class DataSet:
     __metadata_dir = '../metadata.csv' 
     __panel_dir = '../panel.csv'
 
-    def __init__(self):
-        print("Loading dataset...")
+
+
+    def __init__(self, data_directory = ".."):
+        self.__metadata_dir = os.path.join(data_directory, "metadata.csv")
+        self.__panel_dir = os.path.join(data_directory, "panel.csv")
+        self.__image_dir = os.path.join(data_directory, "IMC_images")
 
     # Preprocessing (if needed)
     def preprocessing(self, image, transpose=True, normalize=True) -> np.ndarray:
@@ -63,6 +67,14 @@ class DataSet:
             images.append(image)        
         return images
     
+    def load_images(self):
+        # Get images from dir
+        img_list = self.image_list()
+
+        for image_fp in img_list:
+            image = self.load_image(image_fp)
+
+
     # # Extract channel information
     # panel_df = pd.read_csv('panel.csv')
     # channel_names = dict(zip(panel_df['clean_target'].to_list(), panel_df['channel'].to_list()))
