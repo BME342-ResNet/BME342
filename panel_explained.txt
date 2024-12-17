@@ -1,0 +1,21 @@
+Potential Associations:
+CD8a (32) – Cytotoxic T cells, which are often suppressed when PD-L1 is upregulated.
+CD4 (36) – Helper T cells, which can be influenced by PD-L1 interactions.
+CD3 (19) – General T cell marker, relevant in immune checkpoint studies.
+FOXP3 (29) – Regulatory T cells (Tregs), known to interact with PD-L1 in immunosuppression.
+GranB (25) – Granzyme B, found in cytotoxic cells affected by PD-L1 signaling.
+GranK (41) – Granzyme K, similar role to Granzyme B.
+CD73 (23) – Involved in immunosuppressive pathways, often related to PD-L1.
+LAG-3 (20) – Another immune checkpoint receptor interacting with PD-L1.
+CD279 (22) – Also known as PD-1, the primary receptor for PD-L1.
+Tim-3 (39) – Another checkpoint receptor co-expressed with PD-1 and PD-L1.
+GATA3 (8) – Transcription factor for Th2 cells, can be relevant in PD-L1 modulation.
+4-1BB (12) – Co-stimulatory receptor, potentially modulated by PD-L1.
+VCAM1 (15) – Adhesion molecule, sometimes influenced by PD-L1 in immune responses.
+IRF4 (18) – Transcription factor that can regulate immune cell responses and PD-L1 expression.
+EOMES (27) – Involved in T cell exhaustion, relevant in PD-L1/PD-1 pathways.
+Tbet (37) – Transcription factor for Th1 and cytotoxic cells, which PD-L1 can suppress.
+Ki67 (45) – Proliferation marker; immune cells expressing PD-L1 can affect proliferation.
+Strong Direct Associations:
+CD279 (PD-1) (22) – Direct receptor for PD-L1.
+LAG-3 (20) and Tim-3 (39) – Frequently co-expressed with PD-1 and regulated by PD-L1 interactions.
