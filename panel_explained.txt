@@ -16,6 +16,8 @@ IRF4 (18) – Transcription factor that can regulate immune cell responses and P
 EOMES (27) – Involved in T cell exhaustion, relevant in PD-L1/PD-1 pathways.
 Tbet (37) – Transcription factor for Th1 and cytotoxic cells, which PD-L1 can suppress.
 Ki67 (45) – Proliferation marker; immune cells expressing PD-L1 can affect proliferation.
+
 Strong Direct Associations:
 CD279 (PD-1) (22) – Direct receptor for PD-L1.
 LAG-3 (20) and Tim-3 (39) – Frequently co-expressed with PD-1 and regulated by PD-L1 interactions.
+
